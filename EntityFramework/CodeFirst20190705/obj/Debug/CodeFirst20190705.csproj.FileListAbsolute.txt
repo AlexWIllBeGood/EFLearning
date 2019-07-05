@@ -1,0 +1,9 @@
+C:\Users\Administrator\Desktop\Git\EntityFramework\CodeFirst20190705\bin\Debug\CodeFirst20190705.exe.config
+C:\Users\Administrator\Desktop\Git\EntityFramework\CodeFirst20190705\bin\Debug\CodeFirst20190705.exe
+C:\Users\Administrator\Desktop\Git\EntityFramework\CodeFirst20190705\bin\Debug\CodeFirst20190705.pdb
+C:\Users\Administrator\Desktop\Git\EntityFramework\CodeFirst20190705\bin\Debug\EntityFramework.dll
+C:\Users\Administrator\Desktop\Git\EntityFramework\CodeFirst20190705\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Administrator\Desktop\Git\EntityFramework\CodeFirst20190705\bin\Debug\EntityFramework.xml
+C:\Users\Administrator\Desktop\Git\EntityFramework\CodeFirst20190705\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Administrator\Desktop\Git\EntityFramework\CodeFirst20190705\obj\Debug\CodeFirst20190705.exe
+C:\Users\Administrator\Desktop\Git\EntityFramework\CodeFirst20190705\obj\Debug\CodeFirst20190705.pdb
