@@ -1,0 +1,12 @@
+C:\Users\Administrator\Desktop\Git\EntityFramework\CodeFirst20190708\bin\Debug\CodeFirst20190708.exe.config
+C:\Users\Administrator\Desktop\Git\EntityFramework\CodeFirst20190708\bin\Debug\CodeFirst20190708.exe
+C:\Users\Administrator\Desktop\Git\EntityFramework\CodeFirst20190708\bin\Debug\CodeFirst20190708.pdb
+C:\Users\Administrator\Desktop\Git\EntityFramework\CodeFirst20190708\bin\Debug\EntityFramework.dll
+C:\Users\Administrator\Desktop\Git\EntityFramework\CodeFirst20190708\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Administrator\Desktop\Git\EntityFramework\CodeFirst20190708\bin\Debug\EntityFramework.xml
+C:\Users\Administrator\Desktop\Git\EntityFramework\CodeFirst20190708\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Administrator\Desktop\Git\EntityFramework\CodeFirst20190708\obj\Debug\CodeFirst20190708.exe
+C:\Users\Administrator\Desktop\Git\EntityFramework\CodeFirst20190708\obj\Debug\CodeFirst20190708.pdb
+C:\Users\Administrator\Desktop\Git\EntityFramework\CodeFirst20190708\obj\Debug\CodeFirst20190708.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\Git\EntityFramework\CodeFirst20190708\obj\Debug\CodeFirst20190708.Migrations.InitCreate.resources
+C:\Users\Administrator\Desktop\Git\EntityFramework\CodeFirst20190708\obj\Debug\CodeFirst20190708.csproj.GenerateResource.Cache

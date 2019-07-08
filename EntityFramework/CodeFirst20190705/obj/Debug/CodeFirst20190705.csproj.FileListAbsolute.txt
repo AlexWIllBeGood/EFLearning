@@ -7,3 +7,4 @@ C:\Users\Administrator\Desktop\Git\EntityFramework\CodeFirst20190705\bin\Debug\E
 C:\Users\Administrator\Desktop\Git\EntityFramework\CodeFirst20190705\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\Administrator\Desktop\Git\EntityFramework\CodeFirst20190705\obj\Debug\CodeFirst20190705.exe
 C:\Users\Administrator\Desktop\Git\EntityFramework\CodeFirst20190705\obj\Debug\CodeFirst20190705.pdb
+C:\Users\Administrator\Desktop\Git\EntityFramework\CodeFirst20190705\obj\Debug\CodeFirst20190705.csprojResolveAssemblyReference.cache

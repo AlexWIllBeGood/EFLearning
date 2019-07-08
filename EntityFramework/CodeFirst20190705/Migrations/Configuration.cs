@@ -9,7 +9,7 @@ namespace CodeFirst20190705.Migrations
     {
         public Configuration()
         {
-            AutomaticMigrationsEnabled = false;
+            AutomaticMigrationsEnabled = true;
         }
 
         protected override void Seed(CodeFirst20190705.MixAppContext context)
