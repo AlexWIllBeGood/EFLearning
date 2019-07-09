@@ -1,0 +1,189 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="ModelEntity.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityContainer Name="ModelEntityStoreContainer">
+    <EntitySet Name="TeacherSet" EntityType="ModelEntity.Store.TeacherSet" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="StudentSet" EntityType="ModelEntity.Store.StudentSet" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="ArrangeCourseSet" EntityType="ModelEntity.Store.ArrangeCourseSet" store:Type="Tables" Schema="dbo" />
+    <AssociationSet Name="ArrangeCourseStudent" Association="ModelEntity.Store.ArrangeCourseStudent">
+      <End Role="ArrangeCourse" EntitySet="ArrangeCourseSet" />
+      <End Role="Student" EntitySet="StudentSet" />
+    </AssociationSet>
+    <AssociationSet Name="ArrangeCourseTeacher" Association="ModelEntity.Store.ArrangeCourseTeacher">
+      <End Role="ArrangeCourse" EntitySet="ArrangeCourseSet" />
+      <End Role="Teacher" EntitySet="TeacherSet" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="TeacherSet">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nvarchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="StudentSet">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nvarchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="ArrangeCourseSet">
+    <Key>
+      <PropertyRef Name="ArrangeCourseId" />
+    </Key>
+    <Property Name="ArrangeCourseId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="StudentId" Type="int" Nullable="false" />
+    <Property Name="TeacherId" Type="int" Nullable="false" />
+    <Property Name="CourseId" Type="int" Nullable="false" />
+  </EntityType>
+  <Association Name="ArrangeCourseStudent">
+    <End Role="ArrangeCourse" Type="ModelEntity.Store.ArrangeCourseSet" Multiplicity="*" />
+    <End Role="Student" Type="ModelEntity.Store.StudentSet" Multiplicity="1" />
+    <ReferentialConstraint>
+      <Principal Role="Student">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="ArrangeCourse">
+        <PropertyRef Name="StudentId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="ArrangeCourseTeacher">
+    <End Role="ArrangeCourse" Type="ModelEntity.Store.ArrangeCourseSet" Multiplicity="*" />
+    <End Role="Teacher" Type="ModelEntity.Store.TeacherSet" Multiplicity="1" />
+    <ReferentialConstraint>
+      <Principal Role="Teacher">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="ArrangeCourse">
+        <PropertyRef Name="TeacherId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema xmlns="http://schemas.microsoft.com/ado/2009/11/edm" xmlns:cg="http://schemas.microsoft.com/ado/2006/04/codegeneration" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" Namespace="ModelEntity" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" annotation:UseStrongSpatialTypes="false">
+        <EntityContainer Name="ModelEntityContainer" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="TeacherSet" EntityType="ModelEntity.Teacher" />
+          <EntitySet Name="StudentSet" EntityType="ModelEntity.Student" />
+          <EntitySet Name="ArrangeCourseSet" EntityType="ModelEntity.ArrangeCourse" />
+          <AssociationSet Name="ArrangeCourseStudent" Association="ModelEntity.ArrangeCourseStudent">
+            <End Role="ArrangeCourse" EntitySet="ArrangeCourseSet" />
+            <End Role="Student" EntitySet="StudentSet" />
+          </AssociationSet>
+          <AssociationSet Name="ArrangeCourseTeacher" Association="ModelEntity.ArrangeCourseTeacher">
+            <End Role="ArrangeCourse" EntitySet="ArrangeCourseSet" />
+            <End Role="Teacher" EntitySet="TeacherSet" />
+          </AssociationSet>
+        </EntityContainer>
+        <EntityType Name="Teacher">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Name" Type="String" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Student">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Name" Type="String" Nullable="false" />
+          <NavigationProperty Name="ArrangeCourse" Relationship="ModelEntity.ArrangeCourseStudent" FromRole="Student" ToRole="ArrangeCourse" />
+        </EntityType>
+        <EntityType Name="ArrangeCourse">
+          <Key>
+            <PropertyRef Name="ArrangeCourseId" />
+          </Key>
+          <Property Name="ArrangeCourseId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="StudentId" Type="Int32" Nullable="false" />
+          <Property Name="TeacherId" Type="Int32" Nullable="false" />
+          <Property Name="CourseId" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="Student" Relationship="ModelEntity.ArrangeCourseStudent" FromRole="ArrangeCourse" ToRole="Student" />
+          <NavigationProperty Name="Teacher" Relationship="ModelEntity.ArrangeCourseTeacher" FromRole="ArrangeCourse" ToRole="Teacher" />
+        </EntityType>
+        <Association Name="ArrangeCourseStudent">
+          <End Type="ModelEntity.ArrangeCourse" Role="ArrangeCourse" Multiplicity="*" />
+          <End Type="ModelEntity.Student" Role="Student" Multiplicity="1" />
+          <ReferentialConstraint>
+            <Principal Role="Student">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="ArrangeCourse">
+              <PropertyRef Name="StudentId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="ArrangeCourseTeacher">
+          <End Type="ModelEntity.ArrangeCourse" Role="ArrangeCourse" Multiplicity="*" />
+          <End Type="ModelEntity.Teacher" Role="Teacher" Multiplicity="1" />
+          <ReferentialConstraint>
+            <Principal Role="Teacher">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="ArrangeCourse">
+              <PropertyRef Name="TeacherId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+    <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="ModelEntityStoreContainer" CdmEntityContainer="ModelEntityContainer">
+    <EntitySetMapping Name="TeacherSet">
+      <EntityTypeMapping TypeName="IsTypeOf(ModelEntity.Teacher)">
+        <MappingFragment StoreEntitySet="TeacherSet">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="StudentSet">
+      <EntityTypeMapping TypeName="IsTypeOf(ModelEntity.Student)">
+        <MappingFragment StoreEntitySet="StudentSet">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ArrangeCourseSet">
+      <EntityTypeMapping TypeName="IsTypeOf(ModelEntity.ArrangeCourse)">
+        <MappingFragment StoreEntitySet="ArrangeCourseSet">
+          <ScalarProperty Name="ArrangeCourseId" ColumnName="ArrangeCourseId" />
+          <ScalarProperty Name="StudentId" ColumnName="StudentId" />
+          <ScalarProperty Name="TeacherId" ColumnName="TeacherId" />
+          <ScalarProperty Name="CourseId" ColumnName="CourseId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping></edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <edmx:Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </edmx:Connection>
+    <edmx:Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="False" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="无" />
+        <DesignerProperty Name="UseLegacyProvider" Value="True" />
+      </DesignerInfoPropertySet>
+    </edmx:Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
