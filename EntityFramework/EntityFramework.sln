@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntityFramework", "EntityFr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeFirst20190708", "CodeFirst20190708\CodeFirst20190708.csproj", "{5EF49A42-CAED-433B-A84C-A52D2E8E1127}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "20190730EFCoreProgram(MySql)", "20190730EFCoreProgram\20190730EFCoreProgram(MySql).csproj", "{EB6FEDEB-180A-4238-BC5F-39D413724168}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "20190730EFCoreProgram(MySql)", "20190730EFCoreProgram\20190730EFCoreProgram(MySql).csproj", "{EB6FEDEB-180A-4238-BC5F-39D413724168}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

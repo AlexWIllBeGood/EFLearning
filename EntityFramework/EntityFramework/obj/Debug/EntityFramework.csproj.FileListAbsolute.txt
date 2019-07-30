@@ -22,3 +22,15 @@ C:\Users\Administrator\Desktop\Git\EntityFramework\EntityFramework\obj\Debug\Ent
 C:\Users\Administrator\Desktop\Git\EntityFramework\EntityFramework\obj\Debug\EntityFramework.csprojAssemblyReference.cache
 C:\Users\Administrator\Desktop\Git\EntityFramework\EntityFramework\obj\Debug\EntityFramework.csproj.CoreCompileInputs.cache
 C:\Users\Administrator\Desktop\Git\EntityFramework\EntityFramework\obj\Debug\EntityFramework.csproj.CopyComplete
+C:\Users\AlexW\Desktop\GitEntity\EntityFramework\EntityFramework\bin\Debug\EntityFramework.exe.config
+C:\Users\AlexW\Desktop\GitEntity\EntityFramework\EntityFramework\bin\Debug\EntityFramework.exe
+C:\Users\AlexW\Desktop\GitEntity\EntityFramework\EntityFramework\bin\Debug\EntityFramework.pdb
+C:\Users\AlexW\Desktop\GitEntity\EntityFramework\EntityFramework\bin\Debug\EntityFramework.dll
+C:\Users\AlexW\Desktop\GitEntity\EntityFramework\EntityFramework\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\AlexW\Desktop\GitEntity\EntityFramework\EntityFramework\bin\Debug\EntityFramework.xml
+C:\Users\AlexW\Desktop\GitEntity\EntityFramework\EntityFramework\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\AlexW\Desktop\GitEntity\EntityFramework\EntityFramework\obj\Debug\EntityFramework.csprojAssemblyReference.cache
+C:\Users\AlexW\Desktop\GitEntity\EntityFramework\EntityFramework\obj\Debug\EntityFramework.csproj.CoreCompileInputs.cache
+C:\Users\AlexW\Desktop\GitEntity\EntityFramework\EntityFramework\obj\Debug\EntityFramework.csproj.CopyComplete
+C:\Users\AlexW\Desktop\GitEntity\EntityFramework\EntityFramework\obj\Debug\EntityFramework.exe
+C:\Users\AlexW\Desktop\GitEntity\EntityFramework\EntityFramework\obj\Debug\EntityFramework.pdb

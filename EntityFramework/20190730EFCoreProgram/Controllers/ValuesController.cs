@@ -3,7 +3,9 @@ using System.Collections.Generic;
 using System.Configuration;
 using System.Linq;
 using System.Threading.Tasks;
+using _20190730EFCoreProgram.SysModels;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Options;
 
 namespace _20190730EFCoreProgram.Controllers
 {
@@ -11,11 +13,19 @@ namespace _20190730EFCoreProgram.Controllers
     [ApiController]
     public class ValuesController : ControllerBase
     {
+        private readonly IOptions<AppSettings> appSettings;
+        private readonly IOptions<ConnectionStrings> connectionStrings;
+        public ValuesController(IOptions<AppSettings> appSettings,IOptions<ConnectionStrings> connectionStrings)
+        {
+            this.appSettings = appSettings;
+            this.connectionStrings = connectionStrings;
+        }
         // GET api/values
         [HttpGet]
         public ActionResult<IEnumerable<string>> Get()
         {
-            var temp = ConfigurationManager.ConnectionStrings["mysqlConn"].ToString();
+            var temp = appSettings.Value.Test;
+            var temp1 = connectionStrings.Value.mysqlConn;
             return new string[] { "value1", "value2" };
         }
 

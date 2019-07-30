@@ -1,7 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Configuration;
 using System.Linq;
 using System.Threading.Tasks;
+using _20190730EFCoreProgram.SysModels;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
@@ -25,6 +27,11 @@ namespace _20190730EFCoreProgram
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
+            //添加依赖注入
+            services.AddOptions();
+            services.Configure<ConnectionStrings>(Configuration.GetSection("ConnectionStrings"));
+            services.Configure<AppSettings>(Configuration.GetSection("AppSettings"));
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
