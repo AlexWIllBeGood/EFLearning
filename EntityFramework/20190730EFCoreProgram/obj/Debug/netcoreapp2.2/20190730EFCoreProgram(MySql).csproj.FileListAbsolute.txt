@@ -1,0 +1,14 @@
+C:\Users\Administrator\Desktop\Git\EntityFramework\20190730EFCoreProgram\bin\Debug\netcoreapp2.2\20190730EFCoreProgram(MySql).deps.json
+C:\Users\Administrator\Desktop\Git\EntityFramework\20190730EFCoreProgram\bin\Debug\netcoreapp2.2\20190730EFCoreProgram(MySql).runtimeconfig.json
+C:\Users\Administrator\Desktop\Git\EntityFramework\20190730EFCoreProgram\bin\Debug\netcoreapp2.2\20190730EFCoreProgram(MySql).runtimeconfig.dev.json
+C:\Users\Administrator\Desktop\Git\EntityFramework\20190730EFCoreProgram\bin\Debug\netcoreapp2.2\20190730EFCoreProgram(MySql).dll
+C:\Users\Administrator\Desktop\Git\EntityFramework\20190730EFCoreProgram\obj\Debug\netcoreapp2.2\20190730EFCoreProgram(MySql).csprojAssemblyReference.cache
+C:\Users\Administrator\Desktop\Git\EntityFramework\20190730EFCoreProgram\obj\Debug\netcoreapp2.2\20190730EFCoreProgram(MySql).csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\Git\EntityFramework\20190730EFCoreProgram\obj\Debug\netcoreapp2.2\20190730EFCoreProgram(MySql).RazorAssemblyInfo.cache
+C:\Users\Administrator\Desktop\Git\EntityFramework\20190730EFCoreProgram\obj\Debug\netcoreapp2.2\20190730EFCoreProgram(MySql).RazorAssemblyInfo.cs
+C:\Users\Administrator\Desktop\Git\EntityFramework\20190730EFCoreProgram\obj\Debug\netcoreapp2.2\20190730EFCoreProgram(MySql).AssemblyInfoInputs.cache
+C:\Users\Administrator\Desktop\Git\EntityFramework\20190730EFCoreProgram\obj\Debug\netcoreapp2.2\20190730EFCoreProgram(MySql).AssemblyInfo.cs
+C:\Users\Administrator\Desktop\Git\EntityFramework\20190730EFCoreProgram\obj\Debug\netcoreapp2.2\20190730EFCoreProgram(MySql).RazorTargetAssemblyInfo.cache
+C:\Users\Administrator\Desktop\Git\EntityFramework\20190730EFCoreProgram\bin\Debug\netcoreapp2.2\20190730EFCoreProgram(MySql).pdb
+C:\Users\Administrator\Desktop\Git\EntityFramework\20190730EFCoreProgram\obj\Debug\netcoreapp2.2\20190730EFCoreProgram(MySql).dll
+C:\Users\Administrator\Desktop\Git\EntityFramework\20190730EFCoreProgram\obj\Debug\netcoreapp2.2\20190730EFCoreProgram(MySql).pdb

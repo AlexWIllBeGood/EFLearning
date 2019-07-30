@@ -1,0 +1,14 @@
+C:\Users\Administrator\Desktop\Git\EntityFramework\20190730EFCoreProgram\bin\Debug\netcoreapp2.2\20190730EFCoreProgram.deps.json
+C:\Users\Administrator\Desktop\Git\EntityFramework\20190730EFCoreProgram\bin\Debug\netcoreapp2.2\20190730EFCoreProgram.runtimeconfig.json
+C:\Users\Administrator\Desktop\Git\EntityFramework\20190730EFCoreProgram\bin\Debug\netcoreapp2.2\20190730EFCoreProgram.runtimeconfig.dev.json
+C:\Users\Administrator\Desktop\Git\EntityFramework\20190730EFCoreProgram\bin\Debug\netcoreapp2.2\20190730EFCoreProgram.dll
+C:\Users\Administrator\Desktop\Git\EntityFramework\20190730EFCoreProgram\bin\Debug\netcoreapp2.2\20190730EFCoreProgram.pdb
+C:\Users\Administrator\Desktop\Git\EntityFramework\20190730EFCoreProgram\obj\Debug\netcoreapp2.2\20190730EFCoreProgram.csprojAssemblyReference.cache
+C:\Users\Administrator\Desktop\Git\EntityFramework\20190730EFCoreProgram\obj\Debug\netcoreapp2.2\20190730EFCoreProgram.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\Git\EntityFramework\20190730EFCoreProgram\obj\Debug\netcoreapp2.2\20190730EFCoreProgram.RazorAssemblyInfo.cache
+C:\Users\Administrator\Desktop\Git\EntityFramework\20190730EFCoreProgram\obj\Debug\netcoreapp2.2\20190730EFCoreProgram.RazorAssemblyInfo.cs
+C:\Users\Administrator\Desktop\Git\EntityFramework\20190730EFCoreProgram\obj\Debug\netcoreapp2.2\20190730EFCoreProgram.AssemblyInfoInputs.cache
+C:\Users\Administrator\Desktop\Git\EntityFramework\20190730EFCoreProgram\obj\Debug\netcoreapp2.2\20190730EFCoreProgram.AssemblyInfo.cs
+C:\Users\Administrator\Desktop\Git\EntityFramework\20190730EFCoreProgram\obj\Debug\netcoreapp2.2\20190730EFCoreProgram.RazorTargetAssemblyInfo.cache
+C:\Users\Administrator\Desktop\Git\EntityFramework\20190730EFCoreProgram\obj\Debug\netcoreapp2.2\20190730EFCoreProgram.dll
+C:\Users\Administrator\Desktop\Git\EntityFramework\20190730EFCoreProgram\obj\Debug\netcoreapp2.2\20190730EFCoreProgram.pdb

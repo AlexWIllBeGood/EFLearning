@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntityFramework", "EntityFr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeFirst20190708", "CodeFirst20190708\CodeFirst20190708.csproj", "{5EF49A42-CAED-433B-A84C-A52D2E8E1127}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "20190730EFCoreProgram(MySql)", "20190730EFCoreProgram\20190730EFCoreProgram(MySql).csproj", "{EB6FEDEB-180A-4238-BC5F-39D413724168}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{5EF49A42-CAED-433B-A84C-A52D2E8E1127}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5EF49A42-CAED-433B-A84C-A52D2E8E1127}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5EF49A42-CAED-433B-A84C-A52D2E8E1127}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB6FEDEB-180A-4238-BC5F-39D413724168}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB6FEDEB-180A-4238-BC5F-39D413724168}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB6FEDEB-180A-4238-BC5F-39D413724168}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB6FEDEB-180A-4238-BC5F-39D413724168}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
