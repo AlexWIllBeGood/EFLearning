@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Configuration;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
@@ -14,6 +15,7 @@ namespace _20190730EFCoreProgram.Controllers
         [HttpGet]
         public ActionResult<IEnumerable<string>> Get()
         {
+            var temp = ConfigurationManager.ConnectionStrings["mysqlConn"].ToString();
             return new string[] { "value1", "value2" };
         }
 
