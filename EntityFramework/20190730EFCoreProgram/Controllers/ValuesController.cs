@@ -24,8 +24,6 @@ namespace _20190730EFCoreProgram.Controllers
         [HttpGet]
         public ActionResult<IEnumerable<string>> Get()
         {
-            var temp = appSettings.Value.Test;
-            var temp1 = connectionStrings.Value.mysqlConn;
             return new string[] { "value1", "value2" };
         }
 

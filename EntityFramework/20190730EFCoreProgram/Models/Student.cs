@@ -10,8 +10,7 @@ namespace _20190730EFCoreProgram.Models
         public int Id { get; set; }
         public string CName { get; set; }
         public string EName { get; set; }
+        public virtual IEnumerable<ArrangeCourse> ArrangeCourses { get; set; }
 
-        public IEnumerable<ArrangeCourse> ArrangeCourses { get; set; }
-       
     }
 }
