@@ -16,11 +16,12 @@ namespace _20190730EFCoreProgram.Context
         
         public LocalContext()
         {
+            
         }
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             base.OnConfiguring(optionsBuilder);
-            optionsBuilder.UseMySQL("Data Source=127.0.0.1;port=3306;Initial Catalog=metenword;user id=root;password=123;");
+            optionsBuilder.UseMySQL("Data Source=127.0.0.1;port=3306;Initial Catalog=metenword;user id=root;password=123456;");
         }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
