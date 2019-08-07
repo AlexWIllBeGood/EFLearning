@@ -54,6 +54,14 @@ namespace _20190730EFCoreProgram.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Student");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            CName = "佚名",
+                            EName = "Alex"
+                        });
                 });
 
             modelBuilder.Entity("_20190730EFCoreProgram.Models.Teacher", b =>

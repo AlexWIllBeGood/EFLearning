@@ -23,12 +23,19 @@ namespace _20190730EFCoreProgram.Context
             base.OnConfiguring(optionsBuilder);
             optionsBuilder.UseMySQL("Data Source=127.0.0.1;port=3306;Initial Catalog=metenword;user id=root;password=123456;");
         }
+        DbSet<Student> students { get; set; }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
             modelBuilder.ApplyConfiguration<Teacher>(new TeacherMap());
             modelBuilder.ApplyConfiguration<Student>(new StudentMap());
             modelBuilder.ApplyConfiguration<ArrangeCourse>(new ArrangeCourseMap());
+
+            modelBuilder.Entity<Student>().HasData(new Student() {
+                Id=1,
+                CName="佚名",
+                EName="Alex"
+            });
         }
     }
 }
