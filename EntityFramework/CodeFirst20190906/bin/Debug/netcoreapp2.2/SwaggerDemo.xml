@@ -1,0 +1,149 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CodeFirst20190906</name>
+    </assembly>
+    <members>
+        <member name="T:CodeFirst20190906.Controllers.ArrangeCourseController">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:CodeFirst20190906.Controllers.ArrangeCourseController._arrangeCourseRepository">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:CodeFirst20190906.Controllers.ArrangeCourseController.#ctor(CodeFirst20190906.IRepositorys.IArrangeCourseRepository)">
+            <summary>
+            
+            </summary>
+            <param name="arrangeCourseRepository"></param>
+        </member>
+        <member name="M:CodeFirst20190906.Controllers.ArrangeCourseController.GetAllArrangeCourse">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:CodeFirst20190906.Controllers.ArrangeCourseController.Get(System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CodeFirst20190906.Controllers.ArrangeCourseController.AddArrangeCourse(CodeFirst20190906.Models.ArrangeCourse)">
+            <summary>
+            
+            </summary>
+            <param name="arrangeCourse"></param>
+        </member>
+        <member name="M:CodeFirst20190906.Controllers.ArrangeCourseController.RemoveArrangeCourse(System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="id"></param>
+        </member>
+        <member name="M:CodeFirst20190906.Controllers.ArrangeCourseController.UpdateArrangeCourse(CodeFirst20190906.Models.ArrangeCourse)">
+            <summary>
+            
+            </summary>
+            <param name="arrangeCourse"></param>
+        </member>
+        <member name="T:CodeFirst20190906.Controllers.StudentController">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:CodeFirst20190906.Controllers.StudentController._studentRepository">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:CodeFirst20190906.Controllers.StudentController.#ctor(CodeFirst20190906.IRepositorys.IStudentRepository)">
+            <summary>
+            
+            </summary>
+            <param name="studentRepository"></param>
+        </member>
+        <member name="M:CodeFirst20190906.Controllers.StudentController.GetAllStudents">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:CodeFirst20190906.Controllers.StudentController.Get(System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CodeFirst20190906.Controllers.StudentController.AddStudent(CodeFirst20190906.Models.Student)">
+            <summary>
+            
+            </summary>
+            <param name="student"></param>
+        </member>
+        <member name="M:CodeFirst20190906.Controllers.StudentController.RemoveStudent(System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="id"></param>
+        </member>
+        <member name="M:CodeFirst20190906.Controllers.StudentController.UpdateStudent(CodeFirst20190906.Models.Student)">
+            <summary>
+            
+            </summary>
+            <param name="student"></param>
+        </member>
+        <member name="T:CodeFirst20190906.Controllers.TeacherController">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:CodeFirst20190906.Controllers.TeacherController._teacherRepository">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:CodeFirst20190906.Controllers.TeacherController.#ctor(CodeFirst20190906.IRepositorys.ITeacherRepository)">
+            <summary>
+            
+            </summary>
+            <param name="teacherRepository"></param>
+        </member>
+        <member name="M:CodeFirst20190906.Controllers.TeacherController.GetAllTeachers">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:CodeFirst20190906.Controllers.TeacherController.GetTeacher(System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CodeFirst20190906.Controllers.TeacherController.AddTeacher(CodeFirst20190906.Models.Teacher)">
+            <summary>
+            
+            </summary>
+            <param name="teacher"></param>
+        </member>
+        <member name="M:CodeFirst20190906.Controllers.TeacherController.RemoveTeacher(System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="id"></param>
+        </member>
+        <member name="M:CodeFirst20190906.Controllers.TeacherController.UpdateTeacher(CodeFirst20190906.Models.Teacher)">
+            <summary>
+            
+            </summary>
+            <param name="teacher"></param>
+        </member>
+    </members>
+</doc>

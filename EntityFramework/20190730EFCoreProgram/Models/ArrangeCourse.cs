@@ -12,8 +12,6 @@ namespace _20190730EFCoreProgram.Models
         public int Id { get; set; }
         [MaxLength(300)]
         public string CName { get; set; }
-        [MaxLength(300)]
-        public string EName { get; set; }
         [ForeignKey("Teacher")]
         public virtual int TeacherId { get; set; }
         public virtual Teacher Teacher { get; set; }

@@ -1,23 +1,22 @@
 ﻿using Microsoft.EntityFrameworkCore.Migrations;
 
-namespace _20190730EFCoreProgram.Migrations
+namespace CodeFirst20190906.Migrations
 {
-    public partial class initCreate : Migration
+    public partial class InitCreate : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.CreateTable(
-                name: "Student",
+                name: "students",
                 columns: table => new
                 {
                     Id = table.Column<int>(nullable: false)
                         .Annotation("MySQL:AutoIncrement", true),
-                    CName = table.Column<string>(nullable: true),
-                    EName = table.Column<string>(nullable: true)
+                    Name = table.Column<string>(nullable: true)
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Student", x => x.Id);
+                    table.PrimaryKey("PK_students", x => x.Id);
                 });
 
             migrationBuilder.CreateTable(
@@ -26,8 +25,7 @@ namespace _20190730EFCoreProgram.Migrations
                 {
                     Id = table.Column<int>(nullable: false)
                         .Annotation("MySQL:AutoIncrement", true),
-                    CName = table.Column<int>(nullable: false),
-                    EName = table.Column<int>(nullable: false)
+                    Name = table.Column<string>(nullable: true)
                 },
                 constraints: table =>
                 {
@@ -40,18 +38,17 @@ namespace _20190730EFCoreProgram.Migrations
                 {
                     Id = table.Column<int>(nullable: false)
                         .Annotation("MySQL:AutoIncrement", true),
-                    CName = table.Column<string>(maxLength: 300, nullable: true),
-                    EName = table.Column<string>(maxLength: 300, nullable: true),
-                    TeacherId = table.Column<int>(nullable: false),
-                    StudentId = table.Column<int>(nullable: false)
+                    Name = table.Column<string>(nullable: true),
+                    StudentId = table.Column<int>(nullable: false),
+                    TeacherId = table.Column<int>(nullable: false)
                 },
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_ArrangeCourse", x => x.Id);
                     table.ForeignKey(
-                        name: "FK_ArrangeCourse_Student_StudentId",
+                        name: "FK_ArrangeCourse_students_StudentId",
                         column: x => x.StudentId,
-                        principalTable: "Student",
+                        principalTable: "students",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
                     table.ForeignKey(
@@ -61,11 +58,6 @@ namespace _20190730EFCoreProgram.Migrations
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
                 });
-
-            migrationBuilder.InsertData(
-                table: "Student",
-                columns: new[] { "Id", "CName", "EName" },
-                values: new object[] { 1, "佚名", "Alex" });
 
             migrationBuilder.CreateIndex(
                 name: "IX_ArrangeCourse_StudentId",
@@ -84,7 +76,7 @@ namespace _20190730EFCoreProgram.Migrations
                 name: "ArrangeCourse");
 
             migrationBuilder.DropTable(
-                name: "Student");
+                name: "students");
 
             migrationBuilder.DropTable(
                 name: "Teacher");

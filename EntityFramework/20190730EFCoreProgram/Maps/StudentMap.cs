@@ -1,6 +1,7 @@
 ﻿using _20190730EFCoreProgram.Models;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
+using Microsoft.EntityFrameworkCore.Metadata.Internal;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -14,7 +15,9 @@ namespace _20190730EFCoreProgram.Maps
         {
             builder.ToTable("Student");
             builder.HasKey(e => e.Id);
-            builder.Property(e => e.Id).UseSqlServerIdentityColumn();
+            builder.Property(e => e.Id);
+            builder.Property(e => e.Id).UseSqlServerIdentityColumn<int>();
+            
         }
     }
 }

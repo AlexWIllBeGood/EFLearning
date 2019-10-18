@@ -12775,11 +12775,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Administrator\\Desktop\\Git\\EntityFramework\\20190730EFCoreProgram\\20190730EFCoreProgram(MySql).csproj",
+      "projectUniqueName": "C:\\Users\\Administrator\\Desktop\\GitEntityFramework\\EntityFramework\\20190730EFCoreProgram\\20190730EFCoreProgram(MySql).csproj",
       "projectName": "20190730EFCoreProgram(MySql)",
-      "projectPath": "C:\\Users\\Administrator\\Desktop\\Git\\EntityFramework\\20190730EFCoreProgram\\20190730EFCoreProgram(MySql).csproj",
+      "projectPath": "C:\\Users\\Administrator\\Desktop\\GitEntityFramework\\EntityFramework\\20190730EFCoreProgram\\20190730EFCoreProgram(MySql).csproj",
       "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Administrator\\Desktop\\Git\\EntityFramework\\20190730EFCoreProgram\\obj\\",
+      "outputPath": "C:\\Users\\Administrator\\Desktop\\GitEntityFramework\\EntityFramework\\20190730EFCoreProgram\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

@@ -1,5 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Threading.Tasks;
 
@@ -9,8 +11,7 @@ namespace _20190730EFCoreProgram.Models
     {
         public int Id { get; set; }
         public string CName { get; set; }
-        public string EName { get; set; }
-        public virtual IEnumerable<ArrangeCourse> ArrangeCourses { get; set; }
+        public virtual ICollection<ArrangeCourse> ArrangeCourses { get; set; }
 
     }
 }

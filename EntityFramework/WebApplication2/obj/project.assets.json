@@ -12078,11 +12078,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Administrator\\Desktop\\Git\\EntityFramework\\WebApplication2\\WebApplication2.csproj",
+      "projectUniqueName": "C:\\Users\\Administrator\\Desktop\\GitEntityFramework\\EntityFramework\\WebApplication2\\WebApplication2.csproj",
       "projectName": "WebApplication2",
-      "projectPath": "C:\\Users\\Administrator\\Desktop\\Git\\EntityFramework\\WebApplication2\\WebApplication2.csproj",
+      "projectPath": "C:\\Users\\Administrator\\Desktop\\GitEntityFramework\\EntityFramework\\WebApplication2\\WebApplication2.csproj",
       "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Administrator\\Desktop\\Git\\EntityFramework\\WebApplication2\\obj\\",
+      "outputPath": "C:\\Users\\Administrator\\Desktop\\GitEntityFramework\\EntityFramework\\WebApplication2\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

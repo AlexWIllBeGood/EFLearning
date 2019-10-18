@@ -9,7 +9,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeFirst20190708", "CodeFi
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "20190730EFCoreProgram(MySql)", "20190730EFCoreProgram\20190730EFCoreProgram(MySql).csproj", "{EB6FEDEB-180A-4238-BC5F-39D413724168}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication2", "WebApplication2\WebApplication2.csproj", "{5000ABEB-2564-4A1C-8074-056FA711298E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApplication2", "WebApplication2\WebApplication2.csproj", "{5000ABEB-2564-4A1C-8074-056FA711298E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeFirst20190906", "CodeFirst20190906\CodeFirst20190906.csproj", "{B0A485C1-0CEE-4471-B976-97CC26A0632F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SwaggerTest20190906", "SwaggerTest20190906\SwaggerTest20190906.csproj", "{3917C0D0-FAA2-4B30-974A-FE8AB3F14224}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +37,14 @@ Global
 		{5000ABEB-2564-4A1C-8074-056FA711298E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5000ABEB-2564-4A1C-8074-056FA711298E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5000ABEB-2564-4A1C-8074-056FA711298E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0A485C1-0CEE-4471-B976-97CC26A0632F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0A485C1-0CEE-4471-B976-97CC26A0632F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0A485C1-0CEE-4471-B976-97CC26A0632F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0A485C1-0CEE-4471-B976-97CC26A0632F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3917C0D0-FAA2-4B30-974A-FE8AB3F14224}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3917C0D0-FAA2-4B30-974A-FE8AB3F14224}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3917C0D0-FAA2-4B30-974A-FE8AB3F14224}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3917C0D0-FAA2-4B30-974A-FE8AB3F14224}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
