@@ -1,0 +1,14 @@
+C:\Users\AlexW\Desktop\GitEntity\EntityFramework\20190731EFCoreProgram(MySql)\bin\Debug\netcoreapp2.2\20190731EFCoreProgram(MySql).deps.json
+C:\Users\AlexW\Desktop\GitEntity\EntityFramework\20190731EFCoreProgram(MySql)\bin\Debug\netcoreapp2.2\20190731EFCoreProgram(MySql).runtimeconfig.json
+C:\Users\AlexW\Desktop\GitEntity\EntityFramework\20190731EFCoreProgram(MySql)\bin\Debug\netcoreapp2.2\20190731EFCoreProgram(MySql).runtimeconfig.dev.json
+C:\Users\AlexW\Desktop\GitEntity\EntityFramework\20190731EFCoreProgram(MySql)\bin\Debug\netcoreapp2.2\20190731EFCoreProgram(MySql).dll
+C:\Users\AlexW\Desktop\GitEntity\EntityFramework\20190731EFCoreProgram(MySql)\obj\Debug\netcoreapp2.2\20190731EFCoreProgram(MySql).csprojAssemblyReference.cache
+C:\Users\AlexW\Desktop\GitEntity\EntityFramework\20190731EFCoreProgram(MySql)\obj\Debug\netcoreapp2.2\20190731EFCoreProgram(MySql).csproj.CoreCompileInputs.cache
+C:\Users\AlexW\Desktop\GitEntity\EntityFramework\20190731EFCoreProgram(MySql)\obj\Debug\netcoreapp2.2\20190731EFCoreProgram(MySql).RazorAssemblyInfo.cache
+C:\Users\AlexW\Desktop\GitEntity\EntityFramework\20190731EFCoreProgram(MySql)\obj\Debug\netcoreapp2.2\20190731EFCoreProgram(MySql).RazorAssemblyInfo.cs
+C:\Users\AlexW\Desktop\GitEntity\EntityFramework\20190731EFCoreProgram(MySql)\obj\Debug\netcoreapp2.2\20190731EFCoreProgram(MySql).AssemblyInfoInputs.cache
+C:\Users\AlexW\Desktop\GitEntity\EntityFramework\20190731EFCoreProgram(MySql)\obj\Debug\netcoreapp2.2\20190731EFCoreProgram(MySql).AssemblyInfo.cs
+C:\Users\AlexW\Desktop\GitEntity\EntityFramework\20190731EFCoreProgram(MySql)\obj\Debug\netcoreapp2.2\20190731EFCoreProgram(MySql).RazorTargetAssemblyInfo.cache
+C:\Users\AlexW\Desktop\GitEntity\EntityFramework\20190731EFCoreProgram(MySql)\bin\Debug\netcoreapp2.2\20190731EFCoreProgram(MySql).pdb
+C:\Users\AlexW\Desktop\GitEntity\EntityFramework\20190731EFCoreProgram(MySql)\obj\Debug\netcoreapp2.2\20190731EFCoreProgram(MySql).dll
+C:\Users\AlexW\Desktop\GitEntity\EntityFramework\20190731EFCoreProgram(MySql)\obj\Debug\netcoreapp2.2\20190731EFCoreProgram(MySql).pdb
