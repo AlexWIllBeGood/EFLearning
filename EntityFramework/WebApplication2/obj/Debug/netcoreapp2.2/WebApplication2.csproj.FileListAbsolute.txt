@@ -17,7 +17,6 @@ C:\Users\Administrator\Desktop\GitEntityFramework\EntityFramework\WebApplication
 C:\Users\Administrator\Desktop\GitEntityFramework\EntityFramework\WebApplication2\bin\Debug\netcoreapp2.2\WebApplication2.runtimeconfig.dev.json
 C:\Users\Administrator\Desktop\GitEntityFramework\EntityFramework\WebApplication2\bin\Debug\netcoreapp2.2\WebApplication2.dll
 C:\Users\Administrator\Desktop\GitEntityFramework\EntityFramework\WebApplication2\bin\Debug\netcoreapp2.2\WebApplication2.pdb
-C:\Users\Administrator\Desktop\GitEntityFramework\EntityFramework\WebApplication2\obj\Debug\netcoreapp2.2\WebApplication2.csprojAssemblyReference.cache
 C:\Users\Administrator\Desktop\GitEntityFramework\EntityFramework\WebApplication2\obj\Debug\netcoreapp2.2\WebApplication2.csproj.CoreCompileInputs.cache
 C:\Users\Administrator\Desktop\GitEntityFramework\EntityFramework\WebApplication2\obj\Debug\netcoreapp2.2\WebApplication2.RazorAssemblyInfo.cache
 C:\Users\Administrator\Desktop\GitEntityFramework\EntityFramework\WebApplication2\obj\Debug\netcoreapp2.2\WebApplication2.RazorAssemblyInfo.cs
@@ -26,3 +25,4 @@ C:\Users\Administrator\Desktop\GitEntityFramework\EntityFramework\WebApplication
 C:\Users\Administrator\Desktop\GitEntityFramework\EntityFramework\WebApplication2\obj\Debug\netcoreapp2.2\WebApplication2.RazorTargetAssemblyInfo.cache
 C:\Users\Administrator\Desktop\GitEntityFramework\EntityFramework\WebApplication2\obj\Debug\netcoreapp2.2\WebApplication2.dll
 C:\Users\Administrator\Desktop\GitEntityFramework\EntityFramework\WebApplication2\obj\Debug\netcoreapp2.2\WebApplication2.pdb
+C:\Users\Administrator\Desktop\GitEntityFramework\EntityFramework\WebApplication2\obj\Debug\netcoreapp2.2\WebApplication2.csprojAssemblyReference.cache

@@ -2,7 +2,6 @@ C:\Users\Administrator\Desktop\GitEntityFramework\EntityFramework\SwaggerTest201
 C:\Users\Administrator\Desktop\GitEntityFramework\EntityFramework\SwaggerTest20190906\bin\Debug\netcoreapp2.2\SwaggerTest20190906.runtimeconfig.json
 C:\Users\Administrator\Desktop\GitEntityFramework\EntityFramework\SwaggerTest20190906\bin\Debug\netcoreapp2.2\SwaggerTest20190906.runtimeconfig.dev.json
 C:\Users\Administrator\Desktop\GitEntityFramework\EntityFramework\SwaggerTest20190906\bin\Debug\netcoreapp2.2\SwaggerTest20190906.dll
-C:\Users\Administrator\Desktop\GitEntityFramework\EntityFramework\SwaggerTest20190906\obj\Debug\netcoreapp2.2\SwaggerTest20190906.csprojAssemblyReference.cache
 C:\Users\Administrator\Desktop\GitEntityFramework\EntityFramework\SwaggerTest20190906\obj\Debug\netcoreapp2.2\SwaggerTest20190906.csproj.CoreCompileInputs.cache
 C:\Users\Administrator\Desktop\GitEntityFramework\EntityFramework\SwaggerTest20190906\obj\Debug\netcoreapp2.2\SwaggerTest20190906.RazorAssemblyInfo.cache
 C:\Users\Administrator\Desktop\GitEntityFramework\EntityFramework\SwaggerTest20190906\obj\Debug\netcoreapp2.2\SwaggerTest20190906.RazorAssemblyInfo.cs
@@ -12,3 +11,4 @@ C:\Users\Administrator\Desktop\GitEntityFramework\EntityFramework\SwaggerTest201
 C:\Users\Administrator\Desktop\GitEntityFramework\EntityFramework\SwaggerTest20190906\bin\Debug\netcoreapp2.2\SwaggerTest20190906.pdb
 C:\Users\Administrator\Desktop\GitEntityFramework\EntityFramework\SwaggerTest20190906\obj\Debug\netcoreapp2.2\SwaggerTest20190906.dll
 C:\Users\Administrator\Desktop\GitEntityFramework\EntityFramework\SwaggerTest20190906\obj\Debug\netcoreapp2.2\SwaggerTest20190906.pdb
+C:\Users\Administrator\Desktop\GitEntityFramework\EntityFramework\SwaggerTest20190906\obj\Debug\netcoreapp2.2\SwaggerTest20190906.csprojAssemblyReference.cache
