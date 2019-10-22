@@ -11,9 +11,11 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\StandardDomain\StandardDomain.csproj" />
     <ProjectReference Include="..\StandardEntityFramework.Migrations\StandardEntityFramework.Migrations.csproj" />
-    <ProjectReference Include="..\StandardEntityFramework\StandardEntityFramework.csproj" />
     <ProjectReference Include="..\StandardModels\StandardModels.csproj" />
   </ItemGroup>
+
+  <ProjectExtensions><VisualStudio><UserProperties appsettings_1json__JSONSchema="" /></VisualStudio></ProjectExtensions>
 
 </Project>

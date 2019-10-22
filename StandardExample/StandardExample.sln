@@ -3,13 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.757
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StandardModels", "StandardModels\StandardModels.csproj", "{30935AB1-928F-4ED5-A4EC-1DBFF6D52FFD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StandardModels", "StandardModels\StandardModels.csproj", "{30935AB1-928F-4ED5-A4EC-1DBFF6D52FFD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StandardEntityFramework", "StandardEntityFramework\StandardEntityFramework.csproj", "{3A0C9FC1-8B94-4123-BAC8-26BF22BCA96C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StandardEntityFramework", "StandardEntityFramework\StandardEntityFramework.csproj", "{3A0C9FC1-8B94-4123-BAC8-26BF22BCA96C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StandardEntityFramework.Migrations", "StandardEntityFramework.Migrations\StandardEntityFramework.Migrations.csproj", "{B10CC8D8-0C2A-485A-9E1E-136ED429CD22}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StandardEntityFramework.Migrations", "StandardEntityFramework.Migrations\StandardEntityFramework.Migrations.csproj", "{B10CC8D8-0C2A-485A-9E1E-136ED429CD22}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApi", "WebApi\WebApi.csproj", "{BBC9B26E-E13D-4C59-84A4-49698971AE92}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApi", "WebApi\WebApi.csproj", "{BBC9B26E-E13D-4C59-84A4-49698971AE92}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StandardDomain", "StandardDomain\StandardDomain.csproj", "{D7F0C9CA-6E35-4937-8343-7D2E25B7E8C9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{BBC9B26E-E13D-4C59-84A4-49698971AE92}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BBC9B26E-E13D-4C59-84A4-49698971AE92}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BBC9B26E-E13D-4C59-84A4-49698971AE92}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7F0C9CA-6E35-4937-8343-7D2E25B7E8C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7F0C9CA-6E35-4937-8343-7D2E25B7E8C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7F0C9CA-6E35-4937-8343-7D2E25B7E8C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7F0C9CA-6E35-4937-8343-7D2E25B7E8C9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

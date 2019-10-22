@@ -3,6 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using StandardDomain.IService;
+using StandardEntityFramework.IRepositories;
+using StandardModels.Models;
 
 namespace WebApi.Controllers
 {
@@ -10,6 +13,12 @@ namespace WebApi.Controllers
     [ApiController]
     public class ValuesController : ControllerBase
     {
+        private readonly IStudentDomainService _studentDomainService;
+        public ValuesController(IStudentDomainService studentDomainService)
+        {
+            this._studentDomainService = studentDomainService;
+        }
+
         // GET api/values
         [HttpGet]
         public ActionResult<IEnumerable<string>> Get()
@@ -19,9 +28,10 @@ namespace WebApi.Controllers
 
         // GET api/values/5
         [HttpGet("{id}")]
-        public ActionResult<string> Get(int id)
+        public ActionResult<Student> Get(int id)
         {
-            return "value";
+            var a= _studentDomainService.Get(id);
+            return a;
         }
 
         // POST api/values

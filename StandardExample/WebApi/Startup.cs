@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -10,7 +11,12 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
+using StandardDomain.IService;
+using StandardDomain.Services;
 using StandardEntityFramework;
+using StandardEntityFramework.IRepositories;
+using StandardEntityFramework.Repositories;
+using StandardModels.Models;
 
 namespace WebApi
 {
@@ -31,6 +37,9 @@ namespace WebApi
                     b.MigrationsAssembly("StandardEntityFramework.Migrations");
                 });
             });
+            ////依赖注入
+            services.AddScoped<IStudentDomainService, StudentDomainService>();
+            services.AddScoped<IBaseRepository<Student>, BaseRepository<Student>>();
             services.AddMvc();
         }
 
