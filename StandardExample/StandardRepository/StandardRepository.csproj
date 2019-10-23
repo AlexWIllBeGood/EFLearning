@@ -5,12 +5,12 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="2.2.6" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="3.0.0" />
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\StandardEntityFramework\StandardEntityFramework.csproj" />
     <ProjectReference Include="..\StandardInfrastructure\StandardInfrastructure.csproj" />
-    <ProjectReference Include="..\StandardModels\StandardModels.csproj" />
   </ItemGroup>
 
 </Project>

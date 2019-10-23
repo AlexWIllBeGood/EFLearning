@@ -1,5 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.DependencyInjection;
 using StandardEntityFramework.IRepositories;
+using StandardInfrastructure.Util;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,6 +11,7 @@ using System.Threading.Tasks;
 
 namespace StandardEntityFramework.Repositories
 {
+    [UseDI(ServiceLifetime.Scoped,typeof(IBaseRepository<>))]
     public class BaseRepository<T> : IBaseRepository<T> where T : class
     {
         private readonly LocalDbContext _localDbContext;
@@ -29,7 +32,10 @@ namespace StandardEntityFramework.Repositories
         /// <returns></returns>
         public virtual IQueryable<T> GetList(Expression<Func<T, bool>> expression)
         {
-            return _localDbContext.Set<T>().Where(expression);
+            if (expression == null)
+                return _localDbContext.Set<T>();
+            else
+                return _localDbContext.Set<T>().Where(expression);
         }
         /// <summary>
         /// 添加单个
@@ -38,6 +44,7 @@ namespace StandardEntityFramework.Repositories
         public virtual void Add(T entity)
         {
             _localDbContext.Set<T>().Add(entity);
+            _localDbContext.SaveChanges();
         }
         /// <summary>
         /// 删除单个

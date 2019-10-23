@@ -14,9 +14,9 @@ namespace StandardModels.Maps
             builder.ToTable("StudentTest");
             builder.HasKey(e => e.Id);
             builder.Property(e => e.Id).UseMySqlIdentityColumn();
-            builder.HasMany(e => e.ArrangeCourses)
-                .WithOne(e => e.Student)
-                .HasForeignKey(e => e.StudentId);
+            //builder.HasMany(e => e.ArrangeCourses)
+            //    .WithOne(e => e.Student)
+            //    .HasForeignKey(e => e.StudentId);
         }
     }
 }

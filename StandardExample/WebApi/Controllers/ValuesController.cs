@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using StandardDomain.IService;
 using StandardEntityFramework.IRepositories;
+using StandardModels.Dtos;
 using StandardModels.Models;
 
 namespace WebApi.Controllers
@@ -19,21 +20,41 @@ namespace WebApi.Controllers
             this._studentDomainService = studentDomainService;
         }
 
-        // GET api/values
+        /// <summary>
+        /// 获取所有信息
+        /// </summary>
+        /// <returns></returns>
         [HttpGet]
-        public ActionResult<IEnumerable<string>> Get()
+        [Route("GetAll")]
+        public dynamic GetAll()
         {
-            return new string[] { "value1", "value2" };
+            return _studentDomainService.GetAll();
         }
 
-        // GET api/values/5
-        [HttpGet("{id}")]
-        public ActionResult<Student> Get(int id)
+        /// <summary>
+        /// 获取单个信息
+        /// </summary>
+        /// <returns></returns>
+        [HttpGet]
+        [Route("GetFirst")]
+        public dynamic GetFirst()
         {
-            var a= _studentDomainService.Get(id);
-            return a;
+            return _studentDomainService.GetFirst();
         }
 
+        /// <summary>
+        /// 添加学生
+        /// </summary>
+        /// <param name="input"></param>
+        [HttpPost]
+        [Route("AddStudent")]
+        /// <summary>
+        /// 添加学生
+        /// </summary>
+        public void AddStudent(CreateStudentDto input)
+        {
+            _studentDomainService.AddStudent(input.name);
+        }
         // POST api/values
         [HttpPost]
         public void Post([FromBody] string value)

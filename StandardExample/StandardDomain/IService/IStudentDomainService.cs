@@ -6,7 +6,10 @@ using System.Text;
 
 namespace StandardDomain.IService
 {
-    public interface IStudentDomainService:IBaseRepository<Student>
+    public interface IStudentDomainService
     {
+        dynamic GetFirst();
+        dynamic GetAll();
+        void AddStudent(string name);
     }
 }

@@ -8,8 +8,5 @@ namespace StandardModels.Models
     {
         public int Id { get; set; }
         public string Name { get; set; }
-
-        //导航属性
-        public virtual ICollection<ArrangeCourse> ArrangeCourses { get; set; }
     }
 }
